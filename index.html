@@ -81,34 +81,42 @@
   <div id="2" style="min-height:1000px ;
   background-image: url(img/s2.png);
   no-repeat center center;
-  background-size: cover; onclick=window.location.href=' programmer.html '">
-
+  background-size: cover;" onclick="programmer.html">
   </div>
 
 
-  <div id=" 3 " style="min-height:1000px ; background-image: url(img/s3.png); no-repeat center center; background-size: cover; "> </div>
+  <div id="3" style="min-height:1000px ;
+  background-image: url(img/s3.png);
+    no-repeat center center;
+    background-size: cover;"> </div>
 
 
-  <div id="4 " style="min-height:1000px ; background-image: url(img/s4.png); no-repeat center center; background-size: cover; "> </div>
+  <div id="4" style="min-height:1000px ; background-image: url(img/s4.png);
+    no-repeat center center;
+    background-size: cover;"> </div>
 
 
-  <div id="5 " style="min-height:1000px ; background-image: url(img/s5.png); no-repeat center center; background-size: cover; "> </div>
+  <div id="5" style="min-height:1000px ; background-image: url(img/s5.png);
+    no-repeat center center;
+    background-size: cover;"> </div>
 
-  <div id="6 " style="min-height:1000px ; background-image: url(img/s6.png); no-repeat center center; background-size: cover; "> </div>
+  <div id="6" style="min-height:1000px ; background-image: url(img/s6.png);
+      no-repeat center center;
+      background-size: cover;"> </div>
 
 
-  <script src="js/jquery-1.10.2.min.js "></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js "></script>
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
   <script>
     $(function() {
-      $('a[href*=#]:not([href=#]) ').click(function() {
-        if (location.pathname.replace(/^\//, ' ') == this.pathname.replace(/^\//, ' ') && location.hostname == this.hostname) {
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
 
           var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) + ' ] ');
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
           if (target.length) {
-            $('html,body ').animate({
+            $('html,body').animate({
               scrollTop: target.offset().top
             }, 1000);
             return false;
@@ -126,8 +134,8 @@
         var sectionOffset = $(this.hash).offset().top - 20;
 
         if (sectionOffset <= scrollbarLocation) {
-          $(this).parent().addClass('active ');
-          $(this).parent().siblings().removeClass('active ');
+          $(this).parent().addClass('active');
+          $(this).parent().siblings().removeClass('active');
         }
       })
 
@@ -136,10 +144,10 @@
 
     function toggle_visibility(id) {
       var e = document.getElementById(id);
-      if (e.style.display == 'block ')
-        e.style.display = 'none ';
+      if (e.style.display == 'block')
+        e.style.display = 'none';
       else
-        e.style.display = 'block ';
+        e.style.display = 'block';
     }
   </script>
 

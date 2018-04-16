@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+header {
+  background: rgba(1, 15, 25, 0.5);
+  padding: 5px 5px;
+  width: 100%;
+  position: fixed;
+  display: inline-block;
+}
+
+#logo {
+  /*background: url("../img/M.png");*/
+  display: inline-block;
+  float: left;
+}
+
+div {
+  height: 100hp;
+}
+
+nav {
+  padding-right: 50px;
+  float: right;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+}
+
+nav li a {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: rgba(147, 166, 182, 0.7);
+  text-decoration: none;
+  padding: 20px 20px;
+}
+
+.hi {
+  padding: 400px;
+}
+
+.hi h1 {
+  padding: 60px 5px;
+  background-color: rgba(1, 15, 25, 0.2);
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  font-size: 70px;
+}
+
+.popup-position {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 120%;
+}
+
+#popup-wrapper {
+  width: 500px;
+  margin: 70px auto;
+  text-align: left;
+}
+
+#popup-container {
+  background-color: #FFF;
+  padding: 20px;
+  border-radius: 4px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+
+#wrapper {
+  display: inline-block;
+  float: right;
+  margin-right: 40px;
+}
+
+#wrapper a {
+  color: #fff;
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  padding: 5px 5px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+#wrapper a:hover {
+  color: rgba(147, 166, 182, 0.7);
+  text-decoration: none;
+  padding: 5px 5px;
+}
+
+.title {
+  font-family: fantasy;
+  font-size: 20px;
+  margin-bottom: 5px;
+}

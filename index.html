@@ -3,9 +3,10 @@
 
 <head>
   <title> Minh Do's Portforlio </title>
-  <link rel="stylesheet" type "text/css
-    href="css/cssreset.css ">
-	<link rel="stylesheet " type"text/css href="css/main.css">
+  <meta name="viewport" content="with=device-width">
+  <link rel="stylesheet" type "text/css" href="css/cssreset.css ">
+  <link rel="stylesheet " type "text/css" href="css/main.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
 
@@ -15,40 +16,23 @@
   <header>
     <div id="logo">
       <a href="index.html">
-      <img src="img/M4.png" alt="" height="80" width="80">
+      <img src="img/M5.png" alt="" height="80" width="80">
     </a>
     </div>
 
     <nav>
       <ul>
-        <li class="nav-item active"><a class="scroll" href="#1">Home</a></li>
-        <li class="nav-item"><a class="scroll" href="#2">Programmer</a></li>
-        <li class="nav-item"><a class="scroll" href="#3">Businessman</a></li>
-        <li class="nav-item"><a class="scroll" href="#4">Gymer</a></li>
-        <li class="nav-item"><a class="scroll" href="#5">Musician</a></li>
-        <li class="nav-item"><a class="scroll" href="#6">Chef</a></li>
+        <li class="nav-item active"><a class="scroll" href="#home_stats">Home</a></li>
+        <li class="nav-item"><a class="scroll" href="#about">About</a></li>
+        <li class="nav-item"><a class="scroll" href="#projects">Project</a></li>
+        <li class="nav-item"><a class="scroll" href="#resume">Resume</a></li>
 
         <div id="wrapper">
-          <li><a href="javascript:void(0)" onclick="toggle_visibility('popup-box1');">About me</a> </li>
           <li><a href="javascript:void(0)" onclick="toggle_visibility('popup-box2');">Contact me </a> </li>
         </div>
 
 
       </ul>
-
-      <div id="popup-box1" class="popup-position">
-        <div id="popup-wrapper">
-          <div id="popup-container">
-
-            <div class="title" <h1>ABOUT ME</h1>
-            </div>
-            <p> Welcome to my space! My name is Minh Do, I am a programmer, a businessman, a musician, a gymer, and a chef. I have a lot of hobbies and interests so that why I do not stop learning new things.
-            </p>
-            <p><a href="javascript:void(0)" onclick="toggle_visibility('popup-box1');">CLOSE</a></p>
-          </div>
-        </div>
-      </div>
-
       <div id="popup-box2" class="popup-position">
         <div id="popup-wrapper">
           <div id="popup-container">
@@ -57,56 +41,214 @@
             </div>
             <h2>Minh Do </h2>
             <h4> Phone: 613-515-0038 </h4>
-            <h4> Email: do000045@algonquinlive.com </h4>
+            <h4> Email: minhdo@gmail.com </h4>
 
             <p><a href="javascript:void(0)" onclick="toggle_visibility('popup-box2');">CLOSE</a></p>
           </div>
         </div>
       </div>
 
-
     </nav>
   </header>
 
 
-  <div id="1" style="min-height:1000px ;   background-image: url(img/s1.png);
-    no-repeat center center;
-    background-size: cover;">
-    <div class="hi">
-      <h1> Hello, it's me !!! </h1>
+
+
+  <div id="home_stats" style="min-height:1000px ; background-image: url(img/2.jpg); no-repeat center center; background-size: cover; ">
+
+    <div class="row_banner">
+      <div class="banner-text">
+        <h1 class="responsive-headline">Minh Do</h1>
+        <h3>I'm a
+          <span>programmer</span>, a
+          <span>businessman</span>, a
+          <span>musician</span>, a
+          <span>gymer</span> and
+          <span>a chef</span></h3>
+        <hr/>
+        <ul class="social">
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=100002183902823" title="Minh Do's Facebook" target="_blank">
+<i class="fa fa-facebook"></i>
+</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/minhdoca/" title="Minh Do's LinkedIn" target="_blank">
+<i class="fa fa-linkedin"></i>
+</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/minhdoca/" title="Minh Do's Instagram" target="_blank">
+<i class="fa fa-instagram"></i>
+</a>
+          </li>
+          <li>
+            <a href="https://github.com/TheShadow8" title="Minh Do's GitHub" target="_blank">
+<i class="fa fa-github"></i>
+</a>
+          </li>
+
+
+          <li>
+            <a href="https://www.youtube.com/channel/UCQnURAQc5VAcP35HnCXMd9w " title="Minh Do's YouTube" target="_blank">
+<i class="fa fa-youtube" ></i>
+</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <p class="scrolldown">
+      <a class="smoothscroll" href="#about">
+<i class="icon-down-circle"></i>
+</a>
+    </p>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+
+  </div>
+
+  <div id="about" style="min-height:1000px ; background-color: #0A1C28 ; no-repeat center center; background-size: cover;">
+
+    <div class="row">
+      <div class="three columns">
+        <img class="profile-pic" src="img/M4.png" alt="" />
+      </div>
+      <div class="aboutme">
+        <h2>About Me</h2>
+        <p>
+          I love technology and coding. When I was a child, I dreamed that I can write software, code games and build stunning websites by myself. Now, here I am, I made my dream come true. I have a lot of hobbies and interests so that why I do not stop learning
+          new things.
+        </p>
+
+        <h1>Education: </h1>
+        <p>
+          <a href="http://www.algonquincollege.com/sat/program/computer-programmer/"> Computer Programmer | 2016-2018 | Algonquin College (Canada) </a>
+          <br> <a href="http://web.ms.mcu.edu.tw/en">Bachelor of Bussiness Managerment | 2011-2015 | Ming Chuan University (Taiwan)</a>
+        </p>
+
+        <h1>Skills: </h1>
+        <p>
+          Programming/Languages: Java, Python, Linux shell script, SQL, HTML, CSS, JavaScript, PHP Cobol, XML
+          <br> Databases Management: Oracle 8.x/9.x, My SQL, MS Access
+          <br> Systems: Windows, Linux/Unix, Mac OS X, Android and iOS
+          <br> In depth knowledge about computers, software and technology
+          <br> Trilingual: English, Chinese and Vietnamese
+
+        </p>
+
+        <h1>Work experience: </h1>
+        <p>
+          Sushi Chef (Part-time) | Sushi Village (Canada) | 2017-Current
+          <br> Assitant Manager (Full-time) | Minh Quan Company (Vietnam) | 2014-2015
+          <br> CHEF ASSISTANT (Part-time) | JAPANESE HOT POT (Taiwan) | 2012-2014
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div id="projects" style="min-height:1000px ;background-color: #12082E; no-repeat center center; background-size: cover; ">
+    <div class="projects">
+      <h2>JAVA PROJECTS</h2>
+      <p>
+        ·<a href="programmer.html">Project-1 To Do application</a>: Used Java and JavaFX to build an application which was available to open, create, save, and edit “to do” files. Users could also sort “to do” elements by title, subject, due date, etc.
+        The codes were tested by using JUnit.
+        <br>·<a href="programmer.html"> Project-2 Shannon’s Theorem calculator</a>: Used Java, Java Swing, Observer and Observale to build an application using Shannon’s theorem to calculate Maximum Data Rate. The codes were tested by using JUnit.
+        <br>·<a href="programmer.html"> Project-3 Enterprise Application Programming</a>: Worked with a multithreaded Java server program with a client. A client sent FishStick objects to the server for insertion into a database using a simple text-based
+        protocol and Java Serialization to marshal communications.
+        <br>·<a href="programmer.html"> Project-4 JEE:</a>: A FishStick JEE application which was available to insert and view FishStick records. There were five client types Console with CORBA clients, Swing with CORBA clients, JavaFX with CORBA clients,
+        JavaFX with REST clients, and Android with REST clients. The clients communicate with CORBA or REST to the JEE Enterprise Beans/REST web service on GlassFish.
+      </p>
+      <h2>PYTHON PROJECTS</h2>
+      <p>
+        <br>·<a href="python.html"> Project-1 Tandberg's controller</a>: A Tandberg video conferencing system's controller that helped users control Tandberg systems from their computer.
+        <br>·<a href="python.html"> Project-2 cvs Helper</a>: An application that provided importing cvs file into a database, adding new records, editing records, deleting records and searching records for the users.
+
+      </p>
+      <h2>WEB PROGRAMMING PROJECTS</h2>
+      <p>
+        · <a href="https://theshadow8.github.io/">Project-1 Personal’s website</a>: Used HTML, CSS and JavaScript to build personal’s website.
+
+        <br>· <a href="http://www.algonquinstudents.ca/~do000045/Rocket%20v1/index.html">Project-2 Software Development Project</a>: Used HTML, CSS, JavaScript and Session Initiation Protocol (SIP) to build an application that provided a free voice and
+        video call for users.
+
+      </p>
+
+      <h2>ANDROID PROJECTS</h2>
+      <p>
+        · <a href="https://github.com/TheShadow8/SmartAssistant">Smart Assistants</a>: Developed a software in a group environment. Used Java and XML to build an Android application which included four small apps Activity Tracking, Food Nutrition information
+        tracker, House Thermostat, Automobile.
+        <br>· <a href="https://github.com/TheShadow8/FishStick_REST_clients">FishStick REST clients</a>: An application which helped clients to communicate with REST to the JEE Enterprise Beans/REST web service on GlassFish.
+      </p>
+
+    </div>
+
+  </div>
+
+
+
+
+  <div id="resume" style="min-height:605px ; background-color: #00030D; no-repeat center center; background-size: cover; ">
+    <div id=download>
+      <a href="https://github.com/TheShadow8/TheShadow8.github.io/raw/master/resume/resume.pdf" class="button">
+    Download Resume</a>
+
+      <ul class="social" id="bot_social">
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=100002183902823" title="Minh Do's Facebook" target="_blank">
+<i class="fa fa-facebook"></i>
+</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/minhdoca/" title="Minh Do's LinkedIn" target="_blank">
+<i class="fa fa-linkedin"></i>
+</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/minhdoca/" title="Minh Do's Instagram" target="_blank">
+<i class="fa fa-instagram"></i>
+</a>
+        </li>
+        <li>
+          <a href="https://github.com/TheShadow8" title="Minh Do's GitHub" target="_blank">
+<i class="fa fa-github"></i>
+</a>
+        </li>
+
+
+        <li>
+          <a href="https://www.youtube.com/channel/UCQnURAQc5VAcP35HnCXMd9w " title="Minh Do's YouTube" target="_blank">
+<i class="fa fa-youtube" ></i>
+</a>
+        </li>
+        <hr>
+      </ul>
+      <ul class="copyright">
+        <li>&copy; Copyright 2018 <a title="It's me" href="index.html">Minh Do</a></li>
+        <li>Design by
+          <a title="It's me" href="index.html">Minh Do</a>
+        </li>
+      </ul>
     </div>
   </div>
 
 
-  <div id="2" style="min-height:1000px ;
-  background-image: url(img/s2.png);
-  no-repeat center center;
-  background-size: cover;" onclick="programmer.html">
-  </div>
 
 
-  <div id="3" style="min-height:1000px ;
-  background-image: url(img/s3.png);
-    no-repeat center center;
-    background-size: cover;"> </div>
 
 
-  <div id="4" style="min-height:1000px ; background-image: url(img/s4.png);
-    no-repeat center center;
-    background-size: cover;"> </div>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js "></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js"></script>
 
-  <div id="5" style="min-height:1000px ; background-image: url(img/s5.png);
-    no-repeat center center;
-    background-size: cover;"> </div>
-
-  <div id="6" style="min-height:1000px ; background-image: url(img/s6.png);
-      no-repeat center center;
-      background-size: cover;"> </div>
-
-
-  <script src="js/jquery-1.10.2.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+    particleJS.load('home_stats', 'js/app.js', function() {
+      console.log('particle loaded');
+    });
+  </script>
 
   <script>
     $(function() {

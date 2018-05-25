@@ -6,11 +6,14 @@ header {
   width: 100%;
   position: fixed;
   display: inline-block;
+  transition: 0.5s;
+}
+
+header.hidden {
+  transform: translate3d(0, -100%, 0);
 }
 
 #logo {
-  /*background: url("../img/M.png");*/
-  display: inline-block;
   float: left;
 }
 

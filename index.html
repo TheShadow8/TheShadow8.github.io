@@ -8,51 +8,81 @@
   <link rel="stylesheet" type "text/css" href="css/cssreset.css ">
   <link rel="stylesheet " type "text/css" href="css/main.css">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#main-nav" id="home">
   <header>
-    <div id="logo">
-      <a href="index.html">
-      <img src="img/M5.png" alt="" height="80" width="80">
-    </a>
-    </div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
+      <div class="container">
 
-    <nav>
-      <ul>
-        <li class="nav-item active"><a class="scroll" href="#home_stats">Home</a></li>
-        <li class="nav-item"><a class="scroll" href="#about">About</a></li>
-        <li class="nav-item"><a class="scroll" href="#projects">Project</a></li>
-        <li class="nav-item"><a class="scroll" href="#resume">Resume</a></li>
+        <a href="index.html" class="navbar-brand">
+          <img src="img/M5.png" class="img-fluid rounded-circle" alt="" height="50" width="50">
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Project</a>
+            </li>
+            <li class="nav-item">
+              <a href="#resume" class="nav-link">Resume</a>
+            </li>
+          </ul>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact Me</button>
 
-        <div id="wrapper">
-          <li><a href="javascript:void(0)" onclick="toggle_visibility('popup-box2');">Contact me </a> </li>
-        </div>
 
-
-      </ul>
-      <div id="popup-box2" class="popup-position">
-        <div id="popup-wrapper">
-          <div id="popup-container">
-
-            <div class="title" <h1>CONTACT ME</h1>
-            </div>
-            <h2>Minh Do </h2>
-            <h4> Phone: 613-515-0038 </h4>
-            <h4> Email: minhdo@gmail.com </h4>
-
-            <p><a href="javascript:void(0)" onclick="toggle_visibility('popup-box2');">CLOSE</a></p>
-          </div>
         </div>
       </div>
-
     </nav>
   </header>
 
 
+  <div class="modal fade text-dark" id="contactModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Contact Us</h5>
+          <button class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                  </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary btn-block">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   <div id="home_stats" style="min-height:1000px ; background-image: url(img/2.jpg); no-repeat center center; background-size: cover; ">
@@ -103,84 +133,167 @@
 
   </div>
 
-  <div id="about" style="min-height:1000px ; background-color: #0A1C28 ; no-repeat center center; background-size: cover;">
 
-    <div class="row">
-      <div class="three columns">
-        <img class="profile-pic" src="img/M4.png" alt="" />
+
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-5">
+          <h1 class="display-4">About me</h1>
+          <p class="lead">I love technology and coding. When I was a child, I dreamed that I can write software, code games and build stunning websites by myself. I have a lot of hobbies and interests so that why I do not stop learning new things.</p>
+          <a href="#about-section" class="btn btn-outline-secondary">Find Out More</a>
+        </div>
       </div>
-      <div class="aboutme">
-        <h2>About Me</h2>
-        <p>
-          I love technology and coding. When I was a child, I dreamed that I can write software, code games and build stunning websites by myself. Now, here I am, I made my dream come true. I have a lot of hobbies and interests so that why I do not stop learning
-          new things.
-        </p>
+    </div>
+  </section>
 
-        <h1>Education: </h1>
-        <p>
-          <a href="http://www.algonquincollege.com/sat/program/computer-programmer/"> Computer Programmer | 2016-2018 | Algonquin College (Canada) </a>
-          <br> <a href="http://web.ms.mcu.edu.tw/en">Bachelor of Bussiness Managerment | 2011-2015 | Ming Chuan University (Taiwan)</a>
-        </p>
+  <!-- ABOUT SECTION -->
+  <section id="about-section" class="bg-light text-muted py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/M4.png" alt="" class="img-fluid mb-3 rounded-circle">
+        </div>
+        <div class="col-md-6">
+          <h3>Education</h3>
+          <ul class="list-group mb-5">
+            <a class="list-group-item" href="http://www.algonquincollege.com/sat/program/computer-programmer/"> Computer Programmer | 2016-2018 | Algonquin College (Canada) </a>
+            <a class="list-group-item" href="http://web.ms.mcu.edu.tw/en">Bachelor of Bussiness Managerment | 2011-2015 | Ming Chuan University (Taiwan)</a>
+          </ul>
 
-        <h1>Skills: </h1>
-        <p>
-          Programming/Languages: Java, Python, Linux shell script, SQL, HTML, CSS, JavaScript, PHP Cobol, XML
-          <br> Databases Management: Oracle 8.x/9.x, My SQL, MS Access
-          <br> Systems: Windows, Linux/Unix, Mac OS X, Android and iOS
-          <br> In depth knowledge about computers, software and technology
-          <br> Trilingual: English, Chinese and Vietnamese
+          <h3>Skills</h3>
+          <ul class="list-group mb-5">
+            <li class="list-group-item"> Programming/Languages: Java, Python, Linux shell script, SQL, HTML, CSS, JavaScript, PHP Cobol, XML </li>
+            <li class="list-group-item"> Databases Management: Oracle 8.x/9.x, My SQL, MS Access </li>
+            <li class="list-group-item"> Systems: Windows, Linux/Unix, Mac OS X, Android and iOS </li>
+            <li class="list-group-item"> In depth knowledge about computers, software and technology</li>
+            <li class="list-group-item"> Trilingual: English, Chinese and Vietnamese</li>
+          </ul>
 
-        </p>
 
-        <h1>Work experience: </h1>
-        <p>
-          Sushi Chef (Part-time) | Sushi Village (Canada) | 2017-Current
-          <br> Assitant Manager (Full-time) | Minh Quan Company (Vietnam) | 2014-2015
-          <br> CHEF ASSISTANT (Part-time) | JAPANESE HOT POT (Taiwan) | 2012-2014
-        </p>
+        </div>
       </div>
 
     </div>
-
-  </div>
-
-
-  <div id="projects" style="min-height:1000px ;background-color: #12082E; no-repeat center center; background-size: cover; ">
-    <div class="projects">
-      <h2>JAVA PROJECTS</h2>
-      <p>
-        ·<a href="#">Project-1 To Do application</a>: Used Java and JavaFX to build an application which was available to open, create, save, and edit “to do” files. Users could also sort “to do” elements by title, subject, due date, etc. The codes were
-        tested by using JUnit.
-        <br>·<a href="programmer.html"> Project-2 Shannon’s Theorem calculator</a>: Used Java, Java Swing, Observer and Observale to build an application using Shannon’s theorem to calculate Maximum Data Rate. The codes were tested by using JUnit.
-        <br>·<a href="programmer.html"> Project-3 Enterprise Application Programming</a>: Worked with a multithreaded Java server program with a client. A client sent FishStick objects to the server for insertion into a database using a simple text-based
-        protocol and Java Serialization to marshal communications.
-        <br>·<a href="programmer.html"> Project-4 JEE:</a>: A FishStick JEE application which was available to insert and view FishStick records. There were five client types Console with CORBA clients, Swing with CORBA clients, JavaFX with CORBA clients,
-        JavaFX with REST clients, and Android with REST clients. The clients communicate with CORBA or REST to the JEE Enterprise Beans/REST web service on GlassFish.
-      </p>
-
-      <h2>PYTHON PROJECTS</h2>
-      <p>
-        <br>·<a href="python.html"> Project-1 Tandberg's controller</a>: A Tandberg video conferencing system's controller that helped users control Tandberg systems from their computer.
-        <br>·<a href="python.html"> Project-2 cvs Helper</a>: An application that provided importing cvs file into a database, adding new records, editing records, deleting records and searching records for the users.
-      </p>
-
-      <h2>WEB PROGRAMMING PROJECTS</h2>
-      <p>
-        · <a href="http://minhdo.tech/">Project-1 Personal’s website</a>: Used HTML, CSS and JavaScript to build personal’s website.
-        <br>· <a href="http://www.algonquinstudents.ca/~do000045/Rocket%20v1/index.html">Project-2 Software Development Project</a>: Used HTML, CSS, JavaScript and Session Initiation Protocol (SIP) to build an application that provided a free voice and
-        video call for users.
-        <br>· <a href="game1.html">Project-3 Rock Paper Scissors Game</a>: Used HTML, CSS, JavaScript to build a Rock Paper Scissors game.
-      </p>
-
-      <h2>ANDROID PROJECTS</h2>
-      <p>
-        · <a href="https://github.com/TheShadow8/SmartAssistant">Smart Assistants</a>: Developed a software in a group environment. Used Java and XML to build an Android application which included four small apps Activity Tracking, Food Nutrition information
-        tracker, House Thermostat, Automobile.
-        <br>· <a href="https://github.com/TheShadow8/FishStick_REST_clients">FishStick REST clients</a>: An application which helped clients to communicate with REST to the JEE Enterprise Beans/REST web service on GlassFish.
-      </p>
     </div>
-  </div>
+  </section>
 
+
+  <!-- PROJECTS SECTION  -->
+  <section id="projects">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center py-5">
+
+          <h1 class="display-4">What Have I Built?</h1>
+          <div class="card card-body py-5">
+            <h3>My Skills</h3>
+            <p>Now, here I am, I made my dream come true.</p>
+            <hr>
+            <hr>
+            <h4>HTML 5</h4>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-success" style="width:90%"></div>
+            </div>
+            <h4>CSS 3</h4>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-success" style="width:80%"></div>
+            </div>
+            <h4>JavaScript</h4>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-success" style="width:70%"></div>
+            </div>
+            <h4>Java</h4>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-success" style="width:80%"></div>
+            </div>
+            <h4>Python</h4>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-success" style="width:60%"></div>
+            </div>
+            <h4>Android</h4>
+            <div class="progress mb-3">
+              <div class="progress-bar bg-success" style="width:70%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card-columns">
+            <div class="card">
+              <img src="img/s1.png" alt="" class="card-img-top" height="250" width="200">
+              <div class="card-body">
+                <h4 class="card-title">WEB PROGRAMMING PROJECTS</h4>
+                <small class="text-muted">by Minh Do</small>
+                <hr>
+                <p class="card-text">
+                  · <a href="http://minhdo.tech/">Project-1 Personal’s website</a>: Used HTML, CSS, JavaScript, and Bootstrap to build personal’s website.
+                  <br>· <a href="http://www.algonquinstudents.ca/~do000045/Rocket%20v1/index.html">Project-2 Software Development Project</a>: Used HTML, CSS, JavaScript and Session Initiation Protocol (SIP) to build an application that provided a free
+                  voice and video call for users.
+                  <br>· <a href="game1.html">Project-3 Rock Paper Scissors Game</a>: Used HTML, CSS, JavaScript to build a Rock Paper Scissors game.
+                </p>
+              </div>
+            </div>
+
+
+            <div class="card">
+              <img src="img/java.jpg" alt="" class="card-img-top" height="250" width="200">
+              <div class="card-body">
+                <h4 class="card-title">JAVA PROJECTS</h4>
+                <small class="text-muted">by Minh Do</small>
+                <hr>
+                <p class="card-text">
+                  ·<a href="#blog">Project-1 To Do application</a>: Used Java and JavaFX to build an application which was available to open, create, save, and edit “to do” files. Users could also sort “to do” elements by title, subject, due date, etc.
+                  The codes were tested by using JUnit.
+                  <br>·<a href="#blog"> Project-2 Shannon’s Theorem calculator</a>: Used Java, Java Swing, Observer and Observale to build an application using Shannon’s theorem to calculate Maximum Data Rate. The codes were tested by using JUnit.
+                  <br>·<a href="#blog"> Project-3 Enterprise Application Programming</a>: Worked with a multithreaded Java server program with a client. A client sent FishStick objects to the server for insertion into a database using a simple text-based
+                  protocol and Java Serialization to marshal communications.
+                  <br>·<a href="#blog"> Project-4 JEE</a>: A FishStick JEE application which was available to insert and view FishStick records. There were five client types Console with CORBA clients, Swing with CORBA clients, JavaFX with CORBA clients,
+                  JavaFX with REST clients, and Android with REST clients. The clients communicate with CORBA or REST to the JEE Enterprise Beans/REST web service on GlassFish.
+                </p>
+              </div>
+            </div>
+
+
+
+            <div class="card">
+              <img src="img/python.jpg" alt="" class="card-img-top" height="250" width="200">
+              <div class="card-body">
+                <h4 class="card-title">PYTHON PROJECTS</h4>
+                <small class="text-muted">by Minh Do</small>
+                <hr>
+                <p class="card-text">
+                  ·<a href="#blog"> Project-1 Tandberg's controller</a>: A Tandberg video conferencing system's controller that helped users control Tandberg systems from their computer.
+                  <br>·<a href="#blog"> Project-2 cvs Helper</a>: An application that provided importing cvs file into a database, adding new records, editing records, deleting records and searching records for the users.
+                </p>
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="img/android.jpg" alt="" class="card-img-top" height="250" width="200">
+              <div class="card-body">
+                <h4 class="card-title">ANDROID PROJECTS</h4>
+                <small class="text-muted">by Minh Do</small>
+                <hr>
+                <p class="card-text">
+                  · <a href="https://github.com/TheShadow8/SmartAssistant">Smart Assistants</a>: Developed a software in a group environment. Used Java and XML to build an Android application which included four small apps Activity Tracking, Food Nutrition
+                  information tracker, House Thermostat, Automobile.
+                  <br>· <a href="https://github.com/TheShadow8/FishStick_REST_clients">FishStick REST clients</a>: An application which helped clients to communicate with REST to the JEE Enterprise Beans/REST web service on GlassFish.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
@@ -188,6 +301,8 @@
     <div id=download>
       <a href="https://github.com/TheShadow8/TheShadow8.github.io/raw/master/resume/resume.pdf" class="button">
             Download Resume</a>
+
+
 
       <ul class="social" id="bot_social">
         <li>
@@ -236,46 +351,32 @@
   </script>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js "></script>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js"></script>
 
-  <script>
-    particleJS.load('home_stats', 'js/app.js', function() {
-      console.log('particle loaded');
-    });
-  </script>
 
   <script>
-    $(function() {
-      $('a[href*=#]:not([href=#])').click(function() {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-          if (target.length) {
-            $('html,body').animate({
-              scrollTop: target.offset().top
-            }, 1000);
-            return false;
-          }
-        }
-      });
+    $('body').scrollspy({
+      targer: '#main-nav'
     });
 
-    // Active link switching
-    $(window).scroll(function() {
-      var scrollbarLocation = $(this).scrollTop();
+    // Smooth Scrolling
+    $("#main-nav a").on('click', function(event) {
+      if (this.hash !== "") {
+        event.preventDefault();
 
-      scrollLink.each(function() {
+        const hash = this.hash;
 
-        var sectionOffset = $(this.hash).offset().top - 20;
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function() {
 
-        if (sectionOffset <= scrollbarLocation) {
-          $(this).parent().addClass('active');
-          $(this).parent().siblings().removeClass('active');
-        }
-      })
-
-    })
+          window.location.hash = hash;
+        });
+      }
+    });
 
 
     function toggle_visibility(id) {

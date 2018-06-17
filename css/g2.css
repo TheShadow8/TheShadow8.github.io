@@ -43,14 +43,6 @@
   font-weight: 300;
 }
 
-.active .player-name::after {
-  content: "\2022";
-  font-size: 47px;
-  position: absolute;
-  color: #dc3545;
-  top: -7px;
-  right: 10px;
-}
 
 .player-current-box {
   width: 40%;

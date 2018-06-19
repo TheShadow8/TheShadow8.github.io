@@ -11,6 +11,10 @@ header.hidden {
   transform: translate3d(0, -100%, 0);
 }
 
+.display-none {
+  display: none;
+}
+
 #logo {
   float: left;
 }

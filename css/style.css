@@ -768,7 +768,7 @@ body {
 
 .header {
   height: 85vh;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/rainbow.jpeg);
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/rainbow-small.jpg);
   background-size: cover;
   background-position: top;
   position: relative; }
@@ -783,7 +783,23 @@ body {
   @media only screen and (max-width: 37.5em) {
     .header {
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-      clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); } }
+      clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); }
+      .header hr {
+        display: none; }
+      .header .social {
+        display: none; }
+      .header__logo-box {
+        display: none; } }
+  @media only screen and (max-width: 52em) {
+    .header {
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+      clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); }
+      .header hr {
+        display: none; }
+      .header .social {
+        display: none; }
+      .header__logo-box {
+        display: none; } }
   .header__logo-box {
     position: absolute;
     top: 4rem;

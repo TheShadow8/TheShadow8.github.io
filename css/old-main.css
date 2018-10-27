@@ -49,7 +49,7 @@ header.hidden {
 }
 
 .banner-text h1 {
-  font: 90px/1.1em "opensans-bold", sans-serif;
+  font: 90px/1.1em 'opensans-bold', sans-serif;
   color: #fff;
   letter-spacing: -2px;
   margin: 0 auto 18px;
@@ -57,7 +57,7 @@ header.hidden {
 }
 
 .banner-text h3 {
-  font: 18px/1.9em "librebaskerville-regular", serif;
+  font: 18px/1.9em 'librebaskerville-regular', serif;
   color: #a8a8a8;
   margin: 0 auto;
   width: 70%;
@@ -117,7 +117,7 @@ header.hidden {
 }
 
 #about h2 {
-  font: 30px/30px "opensans-bold", sans-serif;
+  font: 30px/30px 'opensans-bold', sans-serif;
   color: #fff;
   margin-bottom: 3%;
   margin-top: 3%;
@@ -125,7 +125,7 @@ header.hidden {
 
 #about h1,
 #projects h1 {
-  font: 14px, "opensans-bold", sans-serif;
+  font: 14px, 'opensans-bold', sans-serif;
   color: #fff;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -219,7 +219,7 @@ header.hidden {
 }
 
 #resume .copyright li:before {
-  content: "\2022";
+  content: '\2022';
   padding-left: 10px;
   padding-right: 10px;
   color: #095153;
@@ -243,7 +243,4 @@ header.hidden {
   font-size: 21px;
   line-height: 60px;
   border-radius: 100%;
-}
-
-#resume a:hover {
 }

@@ -1,691 +1,764 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta property="og:title" content="Minh Do" />
     <meta property="og:image" content="http://minhdo.tech/img/favicon.png" />
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
 
     <!-- <link rel="stylesheet" href="css/icon-font.css"> -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-        crossorigin="anonymous">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
 
     <title>Minh Do | Full Stack Developer</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="navigation">
-        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
 
-        <label for="navi-toggle" class="navigation__button">
-            <span class="navigation__icon">&nbsp;</span>
-        </label>
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
 
-        <div class="navigation__background">&nbsp;</div>
+      <div class="navigation__background">&nbsp;</div>
 
-        <nav class="navigation__nav">
-            <ul class="navigation__list">
-                <li class="navigation__item"><a href="#section-about" class="navigation__link"><span>01</span>About Me</a></li>
-                <li class="navigation__item"><a href="#section-stories" class="navigation__link"><span>02</span>Education
-                        & Skills</a></li>
-                <li class="navigation__item"><a href="#section-projects" class="navigation__link"><span>03</span>Projects</a></li>
-                <li class="navigation__item"><a href="#section-book" class="navigation__link"><span>04</span>Contact Me</a></li>
-                <li class="navigation__item"><a href="#footer" class="navigation__link"><span>05</span>Resume</a></li>
-            </ul>
-        </nav>
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#section-about" class="navigation__link"><span>01</span>About Me</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#section-stories" class="navigation__link"
+              ><span>02</span>Education & Skills</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#section-projects" class="navigation__link"><span>03</span>Projects</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#section-book" class="navigation__link"><span>04</span>Contact Me</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#footer" class="navigation__link"><span>05</span>Resume</a>
+          </li>
+        </ul>
+      </nav>
     </div>
     <header class="header">
-        <div class="header__logo-box">
-            <img src="img/mlogo.svg" alt="Logo" class="header__logo">
-        </div>
-        <div class="header__text-box">
-            <h1 class="heading-primary">
-                <span class="heading-primary--main">Minh Do</span>
-                <span class="heading-primary--sub">I'm a programmer, a businessman, a musician, a gym goer and a chef</span>
-            </h1>
-            <hr />
-            <ul class="social">
-                <li>
-                    <a href="https://www.facebook.com/profile.php?id=100002183902823" title="Minh Do's Facebook" target="_blank">
-                        <i class="fa fa-facebook"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/minhdoca/" title="Minh Do's LinkedIn" target="_blank">
-                        <i class="fa fa-linkedin"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/minhdoca/" title="Minh Do's Instagram" target="_blank">
-                        <i class="fa fa-instagram"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/TheShadow8" title="Minh Do's GitHub" target="_blank">
-                        <i class="fa fa-github"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/channel/UCQnURAQc5VAcP35HnCXMd9w " title="Minh Do's YouTube"
-                        target="_blank">
-                        <i class="fa fa-youtube"></i>
-                    </a>
-                </li>
-
-            </ul>
-            <a href="#section-about" class="btn btn--white btn--animated">More about me</a>
-        </div>
+      <div class="header__logo-box">
+        <img src="img/mlogo.svg" alt="Logo" class="header__logo" />
+      </div>
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Minh Do</span>
+          <span class="heading-primary--sub"
+            >I'm a programmer, a businessman, a musician, a gym goer and a chef</span
+          >
+        </h1>
+        <hr />
+        <ul class="social">
+          <li>
+            <a
+              href="https://www.facebook.com/profile.php?id=100002183902823"
+              title="Minh Do's Facebook"
+              target="_blank"
+            >
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/minhdoca/"
+              title="Minh Do's LinkedIn"
+              target="_blank"
+            >
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/minhdoca/"
+              title="Minh Do's Instagram"
+              target="_blank"
+            >
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/TheShadow8" title="Minh Do's GitHub" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UCQnURAQc5VAcP35HnCXMd9w "
+              title="Minh Do's YouTube"
+              target="_blank"
+            >
+              <i class="fa fa-youtube"></i>
+            </a>
+          </li>
+        </ul>
+        <a href="#section-about" class="btn btn--white btn--animated">More about me</a>
+      </div>
     </header>
 
     <section class="section-about" id="section-about">
-        <div class="u-center-text u-margin-bottom-big">
-            <h2 class="heading-secondary">
-                About me
-            </h2>
-        </div>
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">About me</h2>
+      </div>
 
-        <div class="row">
-            <div class="col-1-of-1">
-                <p class="paragraph">
-                    I love technology and coding. Since I was a little kid, I always dreamed about developing software,
-                    coding games and building
-                    stunning websites. Over the years, with my diligent work ethic, dedication, and motivation for
-                    continual
-                    learning, I'm getting closer and closer to fulfilling my childhood dream.
-                </p>
-            </div>
+      <div class="row">
+        <div class="col-1-of-1">
+          <p class="paragraph">
+            I love technology and coding. Since I was a little kid, I always dreamed about
+            developing software, coding games and building stunning websites. Over the years, with
+            my diligent work ethic, dedication, and motivation for continual learning, I'm getting
+            closer and closer to fulfilling my childhood dream.
+          </p>
         </div>
-        </div>
-        </div>
+      </div>
     </section>
 
     <section class="section-features" id="section-features">
-
-        <div class="row">
-            <div class="col-1-of-4">
-                <div class="feature-box">
-                    <h3 class="heading-tertiary u-margin-bottom-small ">Dream big</h3>
-                    <p class="feature-box__text">
-                        "Dream big and never let small minds convince you that your dream is out of reach."
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-1-of-4">
-                <div class="feature-box">
-                    <h3 class="heading-tertiary u-margin-bottom-small">Work hard</h3>
-                    <p class="feature-box__text">
-                        "In the end, hard work always wins. Hard work never lies. My dream never dies. Win at all
-                        costs."
-                    </p>
-                </div>
-            </div>
-
-
-            <div class="col-1-of-4">
-                <div class="feature-box">
-                    <h3 class="heading-tertiary u-margin-bottom-small">Fearless</h3>
-                    <p class="feature-box__text">
-                        "Just step right into your fear. You must sum up all the courage inside you and do the thing
-                        you fear most."
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-1-of-4">
-                <div class="feature-box">
-                    <h3 class="heading-tertiary u-margin-bottom-small">Never give up</h3>
-                    <p class="feature-box__text">
-                        "When you feel like quitting remember why you started. And when you feel like quitting. Give me
-                        ten more."
-                    </p>
-                </div>
-            </div>
+      <div class="row">
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <h3 class="heading-tertiary u-margin-bottom-small ">Dream big</h3>
+            <p class="feature-box__text">
+              "Dream big and never let small minds convince you that your dream is out of reach."
+            </p>
+          </div>
         </div>
+
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <h3 class="heading-tertiary u-margin-bottom-small">Work hard</h3>
+            <p class="feature-box__text">
+              "In the end, hard work always wins. Hard work never lies. My dream never dies. Win at
+              all costs."
+            </p>
+          </div>
+        </div>
+
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <h3 class="heading-tertiary u-margin-bottom-small">Fearless</h3>
+            <p class="feature-box__text">
+              "Just step right into your fear. You must sum up all the courage inside you and do the
+              thing you fear most."
+            </p>
+          </div>
+        </div>
+
+        <div class="col-1-of-4">
+          <div class="feature-box">
+            <h3 class="heading-tertiary u-margin-bottom-small">Never give up</h3>
+            <p class="feature-box__text">
+              "When you feel like quitting remember why you started. And when you feel like
+              quitting. Give me ten more."
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="section-stories" id="section-stories">
-        <!-- <div class="bg-video">
+      <!-- <div class="bg-video">
             <video class="bg-video__content" autoplay muted loop>
                 <source src="img/video.mp4" type="video/mp4">
                 <source src="img/video.webm" type="video/webm"> Your browser is not supported!
             </video>
         </div> -->
 
-        <div class="u-center-text u-margin-bottom-big">
-            <h2 class="heading-secondary">
-                Education & Skills
-            </h2>
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">Education & Skills</h2>
+      </div>
+
+      <div class="row">
+        <div class="story">
+          <div class="story__text">
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              <a
+                class="u-simple-link"
+                href="http://www.algonquincollege.com/sat/program/computer-programmer/"
+              >
+                Computer Programmer | 2016-2018 | Algonquin College (Canada)
+              </a>
+            </h3>
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              <a class="u-simple-link" href="http://web.ms.mcu.edu.tw/en"
+                >Bachelor of Bussiness Managerment | 2011-2015 | Ming Chuan University (Taiwan)</a
+              >
+            </h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="story">
+          <div class="story__text">
+            <h3 class="heading-tertiary u-margin-bottom-small u-simple-link">
+              Programming Languages
+            </h3>
+            <p>HTML, CSS, JavaScript, Java, Python, GraphQL, SQL, Cobol, Linux shell script</p>
+            <h3 class="heading-tertiary u-margin-bottom-small u-margin-top-small u-simple-link">
+              Frameworks / Libraries
+            </h3>
+            <p>
+              NodeJS, ExpressJS, Loopback, ReactJS, AngularJS, VueJS, JQuery, Bootstrap, Material,
+              Semantic UI
+            </p>
+
+            <h3 class="heading-tertiary u-margin-bottom-small u-margin-top-small u-simple-link">
+              Databases Management
+            </h3>
+            <p>MongoDB, Postgres, My SQL, Oracle 8.x/9.x, MS Access, Firebase</p>
+            <h3 class="heading-tertiary u-margin-bottom-small u-margin-top-small u-simple-link">
+              Systems
+            </h3>
+            <p>Windows, Linux, Mac OS X, Android and iOS</p>
+            <h3 class="heading-tertiary u-margin-bottom-small u-margin-top-small u-simple-link">
+              Other tools
+            </h3>
+            <p>Git, Bash, SASS, AWS, Docker, Webpack, Postman, Redis, Apache, Nginx</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="u-center-text u-margin-top-huge">
+        <a href="#section-projects" class="btn-text">My projects &rarr;</a>
+      </div>
+    </section>
+
+    <section class="section-projects" id="section-projects">
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">Most popular projects</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--2">&nbsp;</div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--2">mWebsite</span>
+              </h4>
+              <div class="card__details">
+                <p>
+                  Used HTML, CSS (SASS) and JavaScript, to build personal’s website. This project
+                  focuses on advanced CSS topic such as animations, tranformation and responsive
+                  design.
+                </p>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-2">
+              <div class="card__cta">
+                <div class="card__visit-box">
+                  <p class="card__visit-title">mWebsite</p>
+                  <p class="card__visit-slogan">Hello, it's me</p>
+                </div>
+                <a href="http://minhdo.tech/" target="_blank" class="btn btn--white">Visit Now!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--3">&nbsp;</div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--3">mBlog</span>
+              </h4>
+              <div class="card__details">
+                <p>
+                  Used VueJS, Vue-router, Vue-resource, Webpack, Firebase (database) and AWS
+                  (hosting) to build a single-page application. It is just a simple blog where you
+                  can write everything you want.
+                </p>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-3">
+              <div class="card__cta">
+                <div class="card__visit-box">
+                  <p class="card__visit-title">mBlog</p>
+                  <p class="card__visit-slogan">Just a simple blog</p>
+                </div>
+                <a
+                  href="http://mblog-beta.s3-website.us-east-2.amazonaws.com/#/"
+                  target="_blank"
+                  class="btn btn--white"
+                  >Visit Now!
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--1">&nbsp;</div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--1">mConnect</span>
+              </h4>
+              <div class="card__details">
+                <p>
+                  Used MongoDB, Express, React, NodeJS (Full-stack MERN) to build a social network
+                  for developers to connect and share big ideals.
+                </p>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-1">
+              <div class="card__cta">
+                <div class="card__visit-box">
+                  <p class="card__visit-title">mConnect</p>
+                  <p class="card__visit-slogan">Let's connect</p>
+                </div>
+                <a
+                  href="https://immense-beach-77797.herokuapp.com/"
+                  class="btn btn--white"
+                  target="_blank"
+                  >Visit Now!
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--4">&nbsp;</div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--4">mSurvey</span>
+              </h4>
+              <div class="card__details">
+                <p>
+                  Used MongoDB, Express, React, NodeJS (Full-stack MERN) to build a survey
+                  collection application which was available to create a survey, send a survey to a
+                  recipient list, and collect feedbacks.
+                </p>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-4">
+              <div class="card__cta">
+                <div class="card__visit-box">
+                  <p class="card__visit-title">mSurvey</p>
+                  <p class="card__visit-slogan">Do you ?</p>
+                </div>
+                <a
+                  href="https://infinite-earth-35505.herokuapp.com"
+                  target="_blank"
+                  class="btn btn--white"
+                  >Visit Now!</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--6">&nbsp;</div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--6">mChat</span>
+              </h4>
+              <div class="card__details">
+                <p>
+                  Used NodeJs, Express, GraphQL, PostgreSQL and React to build messaging app for
+                  businesses. Users are available to create teams, channels, send real time messages
+                  and more features will be comming soon.
+                </p>
+              </div>
+            </div>
+
+            <div class="card__side card__side--back card__side--back-6">
+              <div class="card__cta">
+                <div class="card__visit-box">
+                  <p class="card__visit-title">mChat</p>
+                  <p class="card__visit-slogan">Text me now</p>
+                </div>
+                <a href="https://github.com/TheShadow8" class="btn btn--white" target="_blank"
+                  >Source Code Here!
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--5">&nbsp;</div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--5">mMenu</span>
+              </h4>
+              <div class="card__details">
+                <p>
+                  Used MongoDB, Express, React, NodeJS (Full-stack MERN) to build a social network
+                  for everyone who wants to share their amazing meals with others.
+                </p>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-5">
+              <div class="card__cta">
+                <div class="card__visit-box">
+                  <p class="card__visit-title">mMenu</p>
+                  <p class="card__visit-slogan">Time to eat</p>
+                </div>
+                <a href="https://mmenu-ca.herokuapp.com/" target="_blank" class="btn btn--white"
+                  >Visit Now!
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="u-margin-top-huge">
+        <div class="row">
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="fas fa-code fa-3x"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                <a class="u-simple-link" href="oldversion.html" target="_blank">
+                  First personal’s website
+                </a>
+              </h3>
+              <p class="feature-box__text">
+                Used HTML, CSS, JavaScript, and Bootstrap to build my first personal’s website.
+              </p>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="fas fa-code fa-3x"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small ">
+                <a
+                  class="u-simple-link"
+                  href="http://www.algonquinstudents.ca/~do000045/Rocket%20v1/index.html"
+                  target="_blank"
+                  >Sip call
+                </a>
+              </h3>
+              <p class="feature-box__text">
+                Used HTML, CSS, JavaScript and Session Initiation Protocol to build a free voice and
+                video call application.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="fas fa-code fa-3x"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                <a class="u-simple-link" href="game1.html" target="_blank">Small Games </a>
+              </h3>
+              <p class="feature-box__text">
+                Used HTML, CSS, JavaScript to build a
+                <a class="u-simple-link" href="game1.html"
+                  ><strong>Rock Paper Scissors Game</strong>
+                </a>
+                and a <a class="u-simple-link" href="game2.html"><strong>Dice Game</strong></a
+                >.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="fas fa-code fa-3x"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                <a class="u-simple-link" href="app1.html" target="_blank">Budget Manager </a>
+              </h3>
+              <p class="feature-box__text">
+                Used HTML, CSS, JavaScript and Bootstrap to build application to manage personal
+                budget.
+              </p>
+            </div>
+          </div>
         </div>
 
         <div class="row">
-            <div class="story">
-                <div class="story__text">
-                    <h3 class="heading-tertiary u-margin-bottom-small"><a class="u-simple-link" href="http://www.algonquincollege.com/sat/program/computer-programmer/">
-                            Computer Programmer | 2016-2018 | Algonquin College (Canada) </a></h3>
-                    <h3 class="heading-tertiary u-margin-bottom-small"> <a class="u-simple-link" href="http://web.ms.mcu.edu.tw/en">Bachelor
-                            of Bussiness Managerment | 2011-2015 | Ming Chuan University (Taiwan)</a></h3>
-                </div>
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="fab fa-java fa-4x"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small ">
+                <a class="u-simple-link">To Do application </a>
+              </h3>
+              <p class="feature-box__text">
+                Used Java and JavaFX to build a simple To Do application which was available to
+                open, create, save, and edit “to do” files. Users could also sort “to do” elements
+                by title, subject, due date, types etc. The codes were tested by using JUnit.
+              </p>
             </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="fab fa-java fa-4x"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small ">
+                <a class="u-simple-link">Shannon’s Theorem calculator </a>
+              </h3>
+              <p class="feature-box__text">
+                Used Java, Java Swing, Observer and Observale to build a Shannon’s Theorem
+                calculator application. Users input Bandwidth and Signal To Noise to calculate
+                Maximum Data Rate. The codes were tested by using JUnit.
+              </p>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="fab fa-java fa-4x"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small ">
+                <a class="u-simple-link">Enterprise Programming </a>
+              </h3>
+              <p class="feature-box__text">
+                Worked with a multithreaded Java server program with a client. A client sent
+                FishStick objects to the server for insertion into a database using a simple
+                text-based protocol and Java Serialization to marshal communications.
+              </p>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="fab fa-java fa-4x"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small ">
+                <a class="u-simple-link">FishStick JEE </a>
+              </h3>
+              <p class="feature-box__text">
+                A JEE application which was available to insert and view FishStick records. Five
+                client types (Console-CORBA, Swing-CORBA, JavaFX-CORBA, JavaFX-REST, and
+                Android-REST) communicate with the JEE Enterprise Beans/REST web service on
+                GlassFish.
+              </p>
+            </div>
+          </div>
         </div>
 
-
         <div class="row">
-            <div class="story">
-                <div class="story__text">
-                    <h3 class="heading-tertiary u-margin-bottom-small u-simple-link">Programming
-                        Languages </h3>
-                    <p>
-                        HTML, CSS, JavaScript, Java, Python, GraphQL, SQL, Cobol,
-                        Linux shell script
-                    </p>
-                    <h3 class="heading-tertiary u-margin-bottom-small u-margin-top-small u-simple-link">Frameworks /
-                        Libraries</h3>
-                    <p>
-                        NodeJS, ExpressJS, Loopback, ReactJS, AngularJS, VueJS, JQuery, Bootstrap, Material, Semantic UI
-                    </p>
-
-                    <h3 class="heading-tertiary u-margin-bottom-small u-margin-top-small u-simple-link">Databases
-                        Management</h3>
-                    <p>
-                        MongoDB, Postgres, My SQL, Oracle 8.x/9.x, MS Access, Firebase
-                    </p>
-                    <h3 class="heading-tertiary u-margin-bottom-small u-margin-top-small u-simple-link">Systems</h3>
-                    <p>
-                        Windows, Linux, Mac OS X, Android and iOS
-                    </p>
-                    <h3 class="heading-tertiary u-margin-bottom-small u-margin-top-small u-simple-link">Other tools</h3>
-                    <p>
-                        Git, Bash, SASS, AWS, Docker, Webpack, Postman, Redis, Apache, Nginx
-                    </p>
-                </div>
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="fab fa-python fa-4x"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small ">
+                <a class="u-simple-link">Tandberg's controller </a>
+              </h3>
+              <p class="feature-box__text">
+                A Tandberg video conferencing system's controller that helped users control Tandberg
+                systems by computer.
+              </p>
             </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="fab fa-python fa-4x"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                <a class="u-simple-link">cvs Helper</a>
+              </h3>
+              <p class="feature-box__text">
+                An application that provided importing cvs file into a database, adding new records,
+                editing records, deleting records and searching records.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="fab fa-android fa-4x"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                <a
+                  class="u-simple-link"
+                  href="https://github.com/TheShadow8/SmartAssistant"
+                  target="_blank"
+                  >Smart Assistants
+                </a>
+              </h3>
+              <p class="feature-box__text">
+                An Android application which included four small apps Activity Tracker, Food
+                information Nutrition tracker, House Thermostat, Automobile.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <i class="fab fa-android fa-4x"></i>
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                <a
+                  class="u-simple-link"
+                  href="https://github.com/TheShadow8/FishStick_REST_clients"
+                  target="_blank"
+                >
+                  FishStick REST clients
+                </a>
+              </h3>
+              <p class="feature-box__text">
+                An Android application which helped clients to communicate with REST to the JEE
+                Enterprise Beans/REST web service on GlassFish.
+              </p>
+            </div>
+          </div>
         </div>
 
         <div class="u-center-text u-margin-top-huge">
-            <a href="#section-projects" class="btn-text">My projects &rarr;</a>
+          <a
+            href="https://github.com/TheShadow8"
+            title="Minh Do's GitHub"
+            target="_blank"
+            class="btn btn--green"
+            >More projects
+          </a>
         </div>
-    </section>
-
-
-
-    <section class="section-projects" id="section-projects">
-        <div class="u-center-text u-margin-bottom-big">
-            <h2 class="heading-secondary">
-                Most popular projects
-            </h2>
-        </div>
-
-        <div class="row">
-
-            <div class="col-1-of-2">
-                <div class="card">
-                    <div class="card__side card__side--front">
-                        <div class="card__picture card__picture--2">
-                            &nbsp;
-                        </div>
-                        <h4 class="card__heading">
-                            <span class="card__heading-span card__heading-span--2">mWebsite</span>
-                        </h4>
-                        <div class="card__details">
-                            <p>
-                                Used HTML, CSS (SASS) and JavaScript, to build personal’s website. This project focuses
-                                on advanced CSS topic such as animations,
-                                tranformation and responsive design.
-                            </p>
-                        </div>
-
-                    </div>
-                    <div class="card__side card__side--back card__side--back-2">
-                        <div class="card__cta">
-                            <div class="card__visit-box">
-                                <p class="card__visit-title">mWebsite</p>
-                                <p class="card__visit-slogan">Hello, it's me</p>
-                            </div>
-                            <a href="http://minhdo.tech/" target="_blank" class="btn btn--white">Visit Now!</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="col-1-of-2">
-                <div class="card">
-                    <div class="card__side card__side--front">
-                        <div class="card__picture card__picture--1">
-                            &nbsp;
-                        </div>
-                        <h4 class="card__heading">
-                            <span class="card__heading-span card__heading-span--1">mConnect</span>
-                        </h4>
-                        <div class="card__details">
-                            <p>
-                                Used MongoDB, Express, React, NodeJS (Full-stack MERN) to build a social network for
-                                developers to connect and share big ideals.
-                            </p>
-
-                        </div>
-                    </div>
-                    <div class="card__side card__side--back card__side--back-1">
-                        <div class="card__cta">
-                            <div class="card__visit-box">
-                                <p class="card__visit-title">mConnect</p>
-                                <p class="card__visit-slogan">Let's connect</p>
-
-                            </div>
-                            <a href="https://immense-beach-77797.herokuapp.com/" class="btn btn--white" target="_blank">Visit
-                                Now!
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-
-
-        <div class="row">
-
-
-            <div class="col-1-of-3">
-                <div class="card">
-                    <div class="card__side card__side--front">
-                        <div class="card__picture card__picture--4">
-                            &nbsp;
-                        </div>
-                        <h4 class="card__heading">
-                            <span class="card__heading-span card__heading-span--4">mSurvey</span>
-                        </h4>
-                        <div class="card__details">
-                            <p>
-                                Used MongoDB, Express, React, NodeJS (Full-stack MERN) to build a survey collection
-                                application which was available to
-                                create a survey, send a survey to a recipient list, and collect feedbacks.
-                            </p>
-                        </div>
-
-                    </div>
-                    <div class="card__side card__side--back card__side--back-4">
-                        <div class="card__cta">
-                            <div class="card__visit-box">
-                                <p class="card__visit-title">mSurvey</p>
-                                <p class="card__visit-slogan">Do you ?</p>
-                            </div>
-                            <a href="https://infinite-earth-35505.herokuapp.com" target="_blank" class="btn btn--white">Visit
-                                Now!</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-1-of-3">
-                <div class="card">
-                    <div class="card__side card__side--front">
-                        <div class="card__picture card__picture--3">
-                            &nbsp;
-                        </div>
-                        <h4 class="card__heading">
-                            <span class="card__heading-span card__heading-span--3">mBlog</span>
-                        </h4>
-                        <div class="card__details">
-                            <p>
-                                Used VueJS, Vue-router, Vue-resource, Webpack, Firebase (database) and AWS (hosting) to
-                                build a single-page application. It is just a simple blog where you can write
-                                everything you want.
-                            </p>
-                        </div>
-
-                    </div>
-                    <div class="card__side card__side--back card__side--back-3">
-                        <div class="card__cta">
-                            <div class="card__visit-box">
-                                <p class="card__visit-title">mBlog</p>
-                                <p class="card__visit-slogan">Just a simple blog</p>
-
-                            </div>
-                            <a href="http://mblog-beta.s3-website.us-east-2.amazonaws.com/#/" target="_blank" class="btn btn--white">Visit
-                                Now!
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-1-of-3">
-                <div class="card">
-                    <div class="card__side card__side--front">
-                        <div class="card__picture card__picture--5">
-                            &nbsp;
-                        </div>
-                        <h4 class="card__heading">
-                            <span class="card__heading-span card__heading-span--5">mMenu</span>
-                        </h4>
-                        <div class="card__details">
-                            <p>
-                                Used MongoDB, Express, React, NodeJS (Full-stack MERN) to build a social network for
-                                everyone who wants to share their amazing meals with others.
-                            </p>
-                        </div>
-
-                    </div>
-                    <div class="card__side card__side--back card__side--back-5">
-                        <div class="card__cta">
-                            <div class="card__visit-box">
-                                <p class="card__visit-title">mMenu</p>
-                                <p class="card__visit-slogan">Time to eat</p>
-                               
-                            </div>
-                            <a href="https://mmenu-ca.herokuapp.com/" target="_blank" class="btn btn--white">Visit
-                                Now!
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="u-margin-top-huge">
-            <div class="row">
-
-                <div class="col-1-of-4">
-                    <div class="feature-box">
-                        <i class="fas fa-code fa-3x"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small"><a class="u-simple-link" href="oldversion.html"
-                                target="_blank">
-                                First personal’s website
-                            </a></h3>
-                        <p class="feature-box__text">
-                            Used HTML, CSS, JavaScript, and Bootstrap to build my first personal’s website.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-1-of-4">
-                    <div class="feature-box">
-                        <i class="fas fa-code fa-3x"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small "><a class="u-simple-link" href="http://www.algonquinstudents.ca/~do000045/Rocket%20v1/index.html"
-                                target="_blank">Sip call
-                            </a></h3>
-                        <p class="feature-box__text">
-                            Used HTML, CSS, JavaScript and Session Initiation Protocol to build a free voice and video
-                            call application.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-1-of-4">
-                    <div class="feature-box">
-                        <i class="fas fa-code fa-3x"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small"><a class="u-simple-link" href="game1.html"
-                                target="_blank">Small
-                                Games
-                            </a></h3>
-                        <p class="feature-box__text">
-                            Used HTML, CSS, JavaScript to build a <a class="u-simple-link" href="game1.html"><strong>Rock
-                                    Paper Scissors Game</strong>
-                            </a> and a
-                            <a class="u-simple-link" href="game2.html"><strong>Dice Game</strong></a>.
-                        </p>
-
-
-
-                    </div>
-                </div>
-
-                <div class="col-1-of-4">
-                    <div class="feature-box">
-                        <i class="fas fa-code fa-3x"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small"><a class="u-simple-link" href="app1.html"
-                                target="_blank">Budget
-                                Manager
-                            </a></h3>
-                        <p class="feature-box__text">
-                            Used HTML, CSS, JavaScript and Bootstrap to build application to manage personal budget.
-                        </p>
-                    </div>
-                </div>
-
-
-            </div>
-
-
-            <div class="row">
-                <div class="col-1-of-4">
-                    <div class="feature-box">
-                        <i class="fab fa-java fa-4x"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small "><a class="u-simple-link">To Do application
-                            </a></h3>
-                        <p class="feature-box__text">
-                            Used Java and JavaFX to build a simple To Do application which was available to open,
-                            create, save, and edit “to do” files.
-                            Users could also sort “to do” elements by title, subject, due date, types etc. The codes
-                            were
-                            tested by using JUnit.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-1-of-4">
-                    <div class="feature-box">
-                        <i class="fab fa-java fa-4x"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small "><a class="u-simple-link">Shannon’s Theorem
-                                calculator
-                            </a></h3>
-                        <p class="feature-box__text">
-                            Used Java, Java Swing, Observer and Observale to build a Shannon’s Theorem calculator
-                            application. Users input Bandwidth
-                            and Signal To Noise to calculate Maximum Data Rate. The codes were tested by using JUnit.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-1-of-4">
-                    <div class="feature-box">
-                        <i class="fab fa-java fa-4x"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small "><a class="u-simple-link">Enterprise
-                                Programming
-                            </a></h3>
-                        <p class="feature-box__text">
-                            Worked with a multithreaded Java server program with a client. A client sent FishStick
-                            objects to the server for insertion
-                            into a database using a simple text-based protocol and Java Serialization to marshal
-                            communications.
-                    </div>
-                </div>
-                <div class="col-1-of-4">
-                    <div class="feature-box">
-                        <i class="fab fa-java fa-4x"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small "><a class="u-simple-link">FishStick JEE
-                            </a></h3>
-                        <p class="feature-box__text">
-                            A JEE application which was available to insert and view FishStick records. Five client
-                            types (Console-CORBA, Swing-CORBA,
-                            JavaFX-CORBA, JavaFX-REST, and Android-REST) communicate with the JEE Enterprise Beans/REST
-                            web
-                            service on GlassFish.
-                        </p>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-1-of-4">
-                    <div class="feature-box">
-                        <i class="fab fa-python fa-4x"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small "><a class="u-simple-link">Tandberg's
-                                controller
-                            </a></h3>
-                        <p class="feature-box__text">
-                            A Tandberg video conferencing system's controller that helped users control Tandberg
-                            systems by computer.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-1-of-4">
-                    <div class="feature-box">
-                        <i class="fab fa-python fa-4x"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small"><a class="u-simple-link">cvs Helper</a></h3>
-                        <p class="feature-box__text">
-                            An application that provided importing cvs file into a database, adding new records,
-                            editing records, deleting records and
-                            searching records.
-                        </p>
-
-                    </div>
-                </div>
-
-                <div class="col-1-of-4">
-                    <div class="feature-box">
-                        <i class="fab fa-android fa-4x"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small"><a class="u-simple-link" href="https://github.com/TheShadow8/SmartAssistant"
-                                target="_blank">Smart Assistants
-                            </a></h3>
-                        <p class="feature-box__text">
-                            An Android application which included four small apps Activity Tracker, Food information
-                            Nutrition tracker, House Thermostat,
-                            Automobile.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="col-1-of-4">
-                    <div class="feature-box">
-                        <i class="fab fa-android fa-4x"></i>
-                        <h3 class="heading-tertiary u-margin-bottom-small"><a class="u-simple-link" href="https://github.com/TheShadow8/FishStick_REST_clients"
-                                target="_blank">
-                                FishStick REST clients
-                            </a></h3>
-                        <p class="feature-box__text">
-                            An Android application which helped clients to communicate with REST to the JEE Enterprise
-                            Beans/REST web service on GlassFish.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="u-center-text u-margin-top-huge">
-                <a href="https://github.com/TheShadow8" title="Minh Do's GitHub" target="_blank" class="btn btn--green">More
-                    projects
-                </a>
-            </div>
-        </div>
+      </div>
     </section>
 
     <section class="section-book" id="section-book">
-        <div class="row">
-            <div class="book">
-                <div class="book__form">
-                    <form action="https://formspree.io/minhdo.ca@gmail.com" method="POST" class="form">
-                        <div class="u-margin-bottom-medium">
-                            <h2 class="heading-secondary">
-                                Contact me now
-                            </h2>
-                        </div>
+      <div class="row">
+        <div class="book">
+          <div class="book__form">
+            <form action="https://formspree.io/minhdo.ca@gmail.com" method="POST" class="form">
+              <div class="u-margin-bottom-medium">
+                <h2 class="heading-secondary">Contact me now</h2>
+              </div>
 
-                        <div class="form__group">
-                            <input type="text" class="form__input" placeholder="Full name" id="name" name="name"
-                                required>
-                            <label for="name" class="form__label">Full name</label>
-                        </div>
+              <div class="form__group">
+                <input
+                  type="text"
+                  class="form__input"
+                  placeholder="Full name"
+                  id="name"
+                  name="name"
+                  required
+                />
+                <label for="name" class="form__label">Full name</label>
+              </div>
 
-                        <div class="form__group">
-                            <input type="email" class="form__input" placeholder="Email address" id="email" name="_replyto"
-                                required>
-                            <label for="email" class="form__label">Email address</label>
-                        </div>
+              <div class="form__group">
+                <input
+                  type="email"
+                  class="form__input"
+                  placeholder="Email address"
+                  id="email"
+                  name="_replyto"
+                  required
+                />
+                <label for="email" class="form__label">Email address</label>
+              </div>
 
+              <div class="form__group">
+                <input
+                  type="tel"
+                  class="form__input"
+                  placeholder="Phone number"
+                  id="number"
+                  name="phone"
+                  required
+                />
+                <label for="number" class="form__label">Phone number</label>
+              </div>
+              <input class="u-display-none" type="text" name="_gotcha" />
 
-                        <div class="form__group">
-                            <input type="tel" class="form__input" placeholder="Phone number" id="number" name="phone"
-                                required>
-                            <label for="number" class="form__label">Phone number</label>
-                        </div>
-                        <input class="u-display-none" type="text" name="_gotcha" />
-
-
-                        <div class="form__group">
-                            <button class="btn btn--green">Send &rarr;</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+              <div class="form__group"><button class="btn btn--green">Send &rarr;</button></div>
+            </form>
+          </div>
         </div>
+      </div>
     </section>
-    </main>
 
     <footer class="footer" id="footer">
-        <div class="footer__logo-box">
-
-            <div class="u-center-text u-margin-top-huge">
-                <a href="https://github.com/TheShadow8/TheShadow8.github.io/raw/master/resume/resume.pdf" target="_blank"
-                    class="btn btn--green">
-                    Download resume
+      <div class="footer__logo-box">
+        <div class="u-center-text u-margin-top-huge">
+          <a
+            href="https://github.com/TheShadow8/TheShadow8.github.io/raw/master/resume/resume.pdf"
+            target="_blank"
+            class="btn btn--green"
+          >
+            Download resume
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="u-center-text">
+          <div class="footer__navigation">
+            <ul class="social">
+              <li>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100002183902823"
+                  title="Minh Do's Facebook"
+                  target="_blank"
+                >
+                  <i class="fa fa-facebook"></i>
                 </a>
-            </div>
-
-
-
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/minhdoca/"
+                  title="Minh Do's LinkedIn"
+                  target="_blank"
+                >
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/minhdoca/"
+                  title="Minh Do's Instagram"
+                  target="_blank"
+                >
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/TheShadow8" title="Minh Do's GitHub" target="_blank">
+                  <i class="fa fa-github"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/channel/UCQnURAQc5VAcP35HnCXMd9w "
+                  title="Minh Do's YouTube"
+                  target="_blank"
+                >
+                  <i class="fa fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="row">
-            <div class="u-center-text">
-                <div class="footer__navigation">
-                    <ul class="social">
-                        <li>
-                            <a href="https://www.facebook.com/profile.php?id=100002183902823" title="Minh Do's Facebook"
-                                target="_blank">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/minhdoca/" title="Minh Do's LinkedIn" target="_blank">
-                                <i class="fa fa-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/minhdoca/" title="Minh Do's Instagram" target="_blank">
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/TheShadow8" title="Minh Do's GitHub" target="_blank">
-                                <i class="fa fa-github"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.youtube.com/channel/UCQnURAQc5VAcP35HnCXMd9w " title="Minh Do's YouTube"
-                                target="_blank">
-                                <i class="fa fa-youtube"></i>
-                            </a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
+      </div>
     </footer>
 
     <script>
-        const navMenu = document.querySelector('.navigation__checkbox');
-        const navList = document.querySelector('.navigation__list');
+      const navMenu = document.querySelector('.navigation__checkbox');
+      const navList = document.querySelector('.navigation__list');
 
-        navList.onclick = (e) => {
-            navMenu.checked = false;
-        }
-
-
+      navList.onclick = e => {
+        navMenu.checked = false;
+      };
     </script>
-
-
-</body>
-
+  </body>
 </html>

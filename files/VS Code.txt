@@ -1,0 +1,70 @@
+code --list-extensions | xargs -L 1 echo code --install-extension
+
+
+{
+  "git.ignoreMissingGitWarning": true,
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.formatOnSave": true,
+  "liveServer.settings.port": 0,
+  "git.confirmSync": false,
+  "prettier.singleQuote": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.parameterHints.enabled": false,
+  "prettier.printWidth": 100,
+  "indentRainbow.colors": [
+    "rgba(64,64,16,0.3)",
+    "rgba(32,64,32,0.3)",
+    "rgba(64,32,64,0.3)",
+    "rgba(145, 79, 79, 0.1)",
+    "rgba(240, 192, 192, 0.05)"
+  ],
+  "indentRainbow.errorColor": "rgba(64,64,16,0.5)",
+  "todohighlight.keywords": ["DEBUG:", "REVIEW:", "NOTE:"],
+  "prettier.disableLanguages": ["js"],
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top",
+  "typescript.validate.enable": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Codesandbox"
+}
+
+Key-binding
+{
+    "key": "space",
+    "command": "closeParameterHints",
+    "when": "editorTextFocus && parameterHintsVisible"
+}
+
+code --install-extension alefragnani.Bookmarks
+code --install-extension bradgashler.htmltagwrap
+code --install-extension christian-kohler.path-intellisense
+code --install-extension CoenraadS.bracket-pair-colorizer
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension donjayamanne.jquerysnippets
+code --install-extension dsznajder.es7-react-js-snippets
+code --install-extension eamodio.gitlens
+code --install-extension esbenp.prettier-vscode
+code --install-extension fisheva.eva-theme
+code --install-extension formulahendry.auto-close-tag
+code --install-extension formulahendry.auto-rename-tag
+code --install-extension HookyQR.beautify
+code --install-extension hsnazar.hyper-term-theme
+code --install-extension jolaleye.horizon-theme-vscode
+code --install-extension leizongmin.node-module-intellisense
+code --install-extension lkytal.FlatUI
+code --install-extension midnightsyntax.vscode-wrap-console-log
+code --install-extension mrmlnc.vscode-scss
+code --install-extension msjsdiag.debugger-for-chrome
+code --install-extension ngryman.codesandbox-theme
+code --install-extension oderwat.indent-rainbow
+code --install-extension PeterJausovec.vscode-docker
+code --install-extension PKief.material-icon-theme
+code --install-extension pranaygp.vscode-css-peek
+code --install-extension ritwickdey.LiveServer
+code --install-extension robertohuertasm.vscode-icons
+code --install-extension robinbentley.sass-indented

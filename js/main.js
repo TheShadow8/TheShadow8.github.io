@@ -1,6 +1,12 @@
 // Close navbar when seclected nav item
 const navMenu = document.querySelector('.navigation__checkbox');
 const navList = document.querySelector('.navigation__list');
+
+navList.onclick = e => {
+  navMenu.checked = false;
+};
+
+// Gallery configs
 const slider = document.querySelector('.items');
 const galleryPrev = document.getElementById('galleryPrev');
 const galleryNext = document.getElementById('galleryNext');

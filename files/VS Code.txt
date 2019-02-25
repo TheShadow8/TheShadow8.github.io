@@ -2,36 +2,78 @@ code --list-extensions | xargs -L 1 echo code --install-extension
 
 
 {
-  "git.ignoreMissingGitWarning": true,
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "editor.formatOnSave": true,
-  "liveServer.settings.port": 0,
-  "git.confirmSync": false,
-  "prettier.singleQuote": true,
-  "editor.fontFamily": "Fira Code",
-  "editor.fontSize": 14,
-  "editor.fontLigatures": true,
-  "editor.parameterHints.enabled": false,
-  "prettier.printWidth": 100,
-  "indentRainbow.colors": [
-    "rgba(64,64,16,0.3)",
-    "rgba(32,64,32,0.3)",
-    "rgba(64,32,64,0.3)",
-    "rgba(145, 79, 79, 0.1)",
-    "rgba(240, 192, 192, 0.05)"
-  ],
-  "indentRainbow.errorColor": "rgba(64,64,16,0.5)",
-  "todohighlight.keywords": ["DEBUG:", "REVIEW:", "NOTE:"],
-  "prettier.disableLanguages": ["js"],
-  "eslint.autoFixOnSave": true,
-  "eslint.alwaysShowStatus": true,
-  "editor.tabCompletion": "on",
-  "editor.snippetSuggestions": "top",
-  "typescript.validate.enable": true,
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Codesandbox"
-}
+    "git.ignoreMissingGitWarning": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.formatOnSave": true,
+    "liveServer.settings.port": 0,
+    "git.confirmSync": false,
+    "prettier.singleQuote": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "editor.parameterHints.enabled": false,
+    "indentRainbow.colors": [
+      "rgba(64,64,16,0.3)",
+      "rgba(32,64,32,0.3)",
+      "rgba(64,32,64,0.3)",
+      "rgba(145, 79, 79, 0.1)",
+      "rgba(240, 192, 192, 0.05)"
+    ],
+  
+    "indentRainbow.errorColor": "rgba(64,64,16,0.5)",
+    "todohighlight.keywords": ["DEBUG:", "REVIEW:", "NOTE:"],
+    "prettier.disableLanguages": ["js"],
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "editor.tabCompletion": "on",
+    "typescript.validate.enable": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Codesandbox",
+    "window.zoomLevel": 0,
+    "liveServer.settings.donotVerifyTags": true,
+    "vsicons.presets.angular": true,
+    "vsicons.projectDetection.disableDetect": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "editor.cursorSmoothCaretAnimation": true,
+    "cSpell.language": "en",
+    "cSpell.enabledLanguageIds": [
+      "asciidoc",
+      "c",
+      "cpp",
+      "csharp",
+      "css",
+      "go",
+      "handlebars",
+      "html",
+      "jade",
+      "javascript",
+      "javascriptreact",
+      "json",
+      "latex",
+      "less",
+      "markdown",
+      "notes",
+      "php",
+      "plaintext",
+      "pub",
+      "python",
+      "restructuredtext",
+      "rust",
+      "scss",
+      "text",
+      "typescript",
+      "typescriptreact",
+      "yml"
+    ],
+    "cSpell.userWords": ["DEVTOOLS", "do", "minh"],
+    "workbench.sideBar.location": "left",
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "cSpell.diagnosticLevel": "Hint",
+    "breadcrumbs.enabled": false
+  }
 
 Key-binding
 {
@@ -42,12 +84,15 @@ Key-binding
 
 code --install-extension alefragnani.Bookmarks
 code --install-extension bradgashler.htmltagwrap
+code --install-extension canadaduane.notes
+code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
 code --install-extension CoenraadS.bracket-pair-colorizer
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension donjayamanne.jquerysnippets
 code --install-extension dsznajder.es7-react-js-snippets
 code --install-extension eamodio.gitlens
+code --install-extension eg2.tslint
 code --install-extension esbenp.prettier-vscode
 code --install-extension fisheva.eva-theme
 code --install-extension formulahendry.auto-close-tag
@@ -55,16 +100,19 @@ code --install-extension formulahendry.auto-rename-tag
 code --install-extension HookyQR.beautify
 code --install-extension hsnazar.hyper-term-theme
 code --install-extension jolaleye.horizon-theme-vscode
+code --install-extension jpoissonnier.vscode-styled-components
 code --install-extension leizongmin.node-module-intellisense
 code --install-extension lkytal.FlatUI
-code --install-extension midnightsyntax.vscode-wrap-console-log
 code --install-extension mrmlnc.vscode-scss
-code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension ngryman.codesandbox-theme
 code --install-extension oderwat.indent-rainbow
-code --install-extension PeterJausovec.vscode-docker
 code --install-extension PKief.material-icon-theme
-code --install-extension pranaygp.vscode-css-peek
 code --install-extension ritwickdey.LiveServer
 code --install-extension robertohuertasm.vscode-icons
 code --install-extension robinbentley.sass-indented
+code --install-extension Rubymaniac.vscode-paste-and-indent
+code --install-extension SirTori.indenticator
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension wayou.vscode-todo-highlight
+code --install-extension xabikos.JavaScriptSnippets
+code --install-extension zhuangtongfa.Material-theme
